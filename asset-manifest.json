@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/tes-resto-page/static/css/main.b928a649.css",
+    "main.js": "/tes-resto-page/static/js/main.ccbeeb4e.js",
+    "static/media/bg2.jpg": "/tes-resto-page/static/media/bg2.9314963bb778dd05cb14.jpg",
+    "static/media/bg1.jpg": "/tes-resto-page/static/media/bg1.1da55954aa5183cc8a36.jpg",
+    "static/media/about.jpg": "/tes-resto-page/static/media/about.c3aa9e06831bd88b8db7.jpg",
+    "index.html": "/tes-resto-page/index.html",
+    "main.b928a649.css.map": "/tes-resto-page/static/css/main.b928a649.css.map",
+    "main.ccbeeb4e.js.map": "/tes-resto-page/static/js/main.ccbeeb4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b928a649.css",
+    "static/js/main.ccbeeb4e.js"
+  ]
+}
