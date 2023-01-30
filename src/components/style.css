@@ -1,0 +1,84 @@
+/* Header Style */
+.header-sticky {
+    transition: 0.5s;
+}
+
+header.sticky {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    @apply fixed w-full z-50 bg-white py-5
+}
+
+header.sticky ul {
+    @apply text-black
+}
+
+header.sticky .logo h2 {
+    @apply text-black border-black
+}
+
+
+/* Home Style */
+.bg-home {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+      ),url('./images/bg1.jpg');
+    background-attachment: fixed;
+}
+
+.title {
+    font-family: 'Great Vibes', cursive;
+    @apply text-orange-300 font-extralight relative z-0;
+}
+
+.sub-title {
+    @apply font-semibold tracking-wider z-10 relative
+}
+
+/* About Style */
+
+.col50 {
+    @apply w-1/2
+}
+
+/* Menu Style */
+
+.bg-menu {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),url('./images/bg2.jpg');
+      background-attachment: fixed;
+}
+
+.card-menu {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    @apply w-72 rounded-lg
+}
+
+@media (max-width:991px) {
+    .bg-home {
+        background-position: center center;
+    }
+
+    .nav-menu.active {
+        display: block;
+        @apply bg-yellow-300
+    }
+
+    header.sticky .ham {
+        @apply bg-yellow-300
+    }
+
+    header.sticky .hamburger-react div {
+        background-color: rgb(253 224 71) !important;
+    }
+
+    header.sticky .ham-menu {
+        @apply top-20
+    }
+
+    .card-menu {
+        @apply w-full
+    }
+}
